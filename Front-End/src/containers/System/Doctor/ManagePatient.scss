@@ -1,0 +1,90 @@
+.loader-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader-overlay .lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 100%;
+}
+
+.loader-overlay .lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+
+@keyframes lds-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.manage-patient-container {
+    .m-p-title {
+        font-size: 15px;
+        text-align: center;
+        margin: 10px 0;
+        text-transform: uppercase;
+    }
+
+    .manage-patient-body {
+        padding: 0px 20px;
+        .table-manage-patient {
+            table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            td,
+            th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr &:nth-child(even) {
+                background-color: #dddddd;
+            }
+
+            button {
+                border: none;
+                outline: none;
+                cursor: pointer;
+            }
+
+            .mp-btn-confirm {
+                margin-right: 10px;
+                height: 30px;
+                border-radius: 3px;
+                background: orange;
+            }
+
+            .mp-btn-remedy {
+                height: 30px;
+                border-radius: 3px;
+                background: #39dca0;
+            }
+        }
+    }
+}

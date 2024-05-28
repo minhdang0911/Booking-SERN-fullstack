@@ -1,0 +1,322 @@
+.home-header-container {
+    height: 60px;
+    width: 100%;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10000;
+
+    .home-header-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        .left-content {
+            width: 20%;
+            display: flex;
+            align-items: center;
+
+            .header-logo {
+                height: 100%;
+                width: 100%;
+                cursor: pointer;
+                transform: scale(0.5, 0.5);
+                margin-left: -45px;
+            }
+
+            i {
+                font-size: 25px;
+                color: grey;
+                cursor: pointer;
+            }
+        }
+
+        .center-content {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .child-content {
+                .subs-title {
+                    font-weight: 400;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .right-content {
+            width: 30%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            cursor: pointer;
+
+            .user-info {
+                display: flex;
+                align-items: center;
+                margin-left: -5px;
+
+                .welcome {
+                    // margin-right: 10px;
+                }
+
+                .login-icon {
+                    // margin-right: 5px;
+                }
+
+                .logout-icon {
+                    cursor: pointer;
+                    color: #1890ff; /* Màu chính của antd */
+                    padding-left: 10px;
+                }
+
+                .logout-icon &:hover {
+                    color: #40a9ff; /* Màu khi hover của antd */
+                }
+            }
+
+            .support {
+                padding-right: 30px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                i {
+                    font-size: 15px;
+                    margin-right: 5px;
+                }
+            }
+
+            .dropdown {
+                margin-right: 15px;
+            }
+
+            .language-dropdown {
+                margin-left: 10px; // Thêm margin giữa dropdown và các phần tử khác
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .home-header-container {
+        padding: 0 10px;
+
+        .home-header-content {
+            .left-content {
+                .header-logo {
+                    margin-left: -35px;
+                }
+            }
+
+            .center-content {
+                width: 50%;
+                justify-content: space-evenly;
+
+                .child-content {
+                    .subs-title {
+                        display: none;
+                    }
+                }
+            }
+
+            .right-content {
+                .support {
+                    display: none;
+                }
+
+                .language-vi,
+                .language-en {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .home-header-container {
+        padding: 0 5px;
+
+        .home-header-content {
+            .left-content {
+                .header-logo {
+                    margin-left: -25px;
+                }
+            }
+
+            .center-content {
+                width: 60%;
+            }
+
+            .right-content {
+                .language-vi,
+                .language-en {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    background-image: url('../../assets/images/background.jpg');
+    height: 600px;
+    height: 485px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+
+    .content-up {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+        height: 65%;
+        padding-top: 15px;
+
+        .title1 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            margin-bottom: 5px;
+            color: #fff;
+            margin-top: 30px;
+        }
+
+        .title2 {
+            text-align: center;
+            font-size: 30px;
+            text-shadow: 1px 1px 1px #333;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .search {
+            width: fit-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 25px;
+            background: #f7d800;
+
+            i {
+                margin: 0 5px;
+            }
+
+            input {
+                height: 30px;
+                width: 360px;
+                background: transparent;
+                border: none;
+                outline: none;
+            }
+
+            .search-results {
+                position: absolute;
+                width: 390px;
+                background: #fff;
+                border: 1px solid #ccc;
+                border-top: none;
+                z-index: 1;
+                max-height: 200px;
+                overflow-y: auto;
+                display: none;
+                border-radius: 20px;
+                top: calc(100% + -475px); // Khoảng cách giữa input và search-results
+
+                &.show {
+                    display: block;
+                    // margin-top: 251px !important;
+                }
+
+                .option-child {
+                    display: flex;
+                    align-items: center;
+                    padding: 5px;
+                    border-bottom: 1px solid #ccc;
+
+                    .icon-child {
+                        background: white;
+                        width: 80px;
+                        height: 80px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin-right: 10px; // Để tạo khoảng cách giữa icon và text
+                        display: flex;
+                        justify-content: center;
+                        align-items: center; // Căn chỉnh icon vào giữa
+
+                        i {
+                            color: #49bce2;
+                            font-size: 20px;
+                        }
+                    }
+
+                    .text-child {
+                        font-size: 17;
+                        font-weight: 500;
+
+                        &:hover {
+                            color: #49bce2;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .no-results {
+                    text-align: center;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    .content-down {
+        padding-bottom: 10px;
+        height: 35%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+
+        .option {
+            text-align: center;
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+
+            .option-child {
+                width: 100px;
+
+                .icon-child {
+                    background: white;
+                    width: 40px;
+                    height: 40px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin: 0 auto;
+
+                    i {
+                        color: #49bce2;
+                        font-size: 20px;
+                    }
+                }
+
+                .text-child {
+                    font-size: 17;
+                    font-weight: 500;
+                    &:hover {
+                        color: #49bce2;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

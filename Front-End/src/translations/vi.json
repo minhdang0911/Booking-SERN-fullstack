@@ -1,0 +1,150 @@
+{
+    "homeheader": {
+        "speciality": " Chuyên khoa",
+        "searchdoctor": "Tìm bác sĩ theo chuyên khoa",
+        "health-facility": "Cơ sở y tế",
+        "select-room": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "select-doctor": "Chọn bác sĩ giỏi",
+        "fee": "Gói khám",
+        "check-health": " Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ",
+        "welcome": "Xin chào, ",
+        "language": "Chọn ngôn ngữ",
+        "noResults": "Không tim thấy chuyên khoa tương ứng"
+    },
+
+    "content": {
+        "content1": "Tạo nên một nguôn thông tin sức khoẻ đáng tin cậy, dễ đọc, dễ hiểu cho mọi đôi tượng độc giả",
+        "content2": "Biên soạn bởi",
+        "content3": " Bác sĩ và Dược sĩ",
+        "content4": " Chính sách biên tập",
+        "content5": "nội dung minh bạch",
+        "content6": "Chính sách",
+        "content7": "quảng cáo",
+        "content8": "Chính sách",
+        "content9": "bảo mật",
+        "content10": "BookingCare là một hệ thống đặt lịch khám giúp người bệnh dễ dàng lựa chọn bác sĩ chuyên khoa phù hợp dựa trên mạng lưới các bác sĩ chuyên khoa, thông tin được xác thực rõ ràng, minh bạch hóa các thông tin liên quan đến hoạt động khám chữa bệnh: thời gian, quy trình, giá cả dịch vụ, trang thiết bị, bảo hiểm, địa chỉ, kinh nghiệm, đào tạo của bác sĩ…",
+        "content11": "BẢO HIỂM LIÊN KẾT",
+        "content12": "Truyền thông nói về BookingCare",
+        "content13": "Phòng khám sức khỏe . Đã đăng ký Bản quyền",
+        "content14": "Liên lạc",
+        "content15": "Gửi phản hồi",
+        "content16": "Phương thức thanh toán"
+    },
+
+    "banner": {
+        "title1": "NỀN TẢNG Y TẾ",
+        "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "child1": "Khám chuyên khoa",
+        "child2": "Khám từ xa",
+        "child3": "Khám tổng quát",
+        "child4": "Xét nghiệm y học",
+        "child5": "Sức khỏe tinh thần",
+        "child6": "Khám nha khoa",
+        "placeholder": "Tìm chuyên khoa khám bệnh"
+    },
+
+    "menu": {
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "specialty": "Chuyên khoa",
+            "manage-specialty": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        },
+        "doctor": {
+            "manage-schedule": "Quản lý kế hoạch khám bệnh",
+            "manage-patient": "Quản lý bệnh nhân khám bệnh"
+        }
+    },
+
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "phone-number": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "save": "Lưu user",
+        "image": "Ảnh đại điện",
+        "edit": "Lưu thay đổi"
+    },
+
+    "homepage": {
+        "outstanding-doctor": "Bác sĩ nổi bật tuần qua",
+        "more-info": "Xem thêm",
+        "specialty-popular": "Chuyên khoa phổ biến",
+        "handbook": "Cẩm nang",
+        "specialty": "Chuyên khoa khám"
+    },
+
+    "manage-schedule": {
+        "title": "Quản lý kế hoạch khám bệnh của bác sĩ",
+        "choose-doctor": "Chọn bác sĩ",
+        "choose-date": "Chọn ngày",
+        "save": "Lưu thông tin"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Lịch khám",
+            "no-schedule": "Bác sĩ không có lịch hẹn trong thời gian này, vui lòng chọn thời gian khác!",
+            "choose": "Chọn",
+            "Schedule-a-free-appointment": " và đặt (Phí đặt lịch 0đ)"
+        },
+        "extra-infor-doctor": {
+            "text-address": "Địa chỉ khám",
+            "price": "Giá khám :",
+            "detail": "Xem chi tiết",
+            "payment": " Người bệnh có thể thanh toán chi phí bằng hình thức :",
+            "hide-price": "Ẩn bảng giá"
+        },
+        "booking-modal": {
+            "title": "Thông tin đặt lịch khám bệnh",
+            "fullname": "Họ và tên",
+            "phonenumber": "Số điện thoại",
+            "email": "Địa chỉ email",
+            "address": "Địa chỉ liên hệ",
+            "reason": "Lý do khám",
+            "birthday": "Ngày sinh",
+            "gender": "Giới tính",
+            "confirm": "Xác nhận",
+            "cancel": "Hủy",
+            "pricebooking": "Miễn phí đặt lịch",
+            "price": "Giá khám"
+        },
+        "error": {
+            "error-fullname": "Vui lòng nhập đúng định dạng tên",
+            "error-email": "Vui lòng nhập đúng định dạng email",
+            "error-phone": "Vui lòng nhập đúng định dạng số điện thoại",
+            "error-date": "Người đặt lịch không đủ  18 tuổi"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Tạo thêm thông tin doctor",
+            "select-doctor": "Chọn bác sĩ",
+            "intro": "Thông tin giới thiệu",
+            "add": "Tạo thông tin",
+            "save": "Lưu thông tin",
+            "price": "Giá khám bệnh",
+            "payment": "Phương thức thanh toán",
+            "province": "Tỉnh thành",
+            "nameClinic": "Tên phòng khám",
+            "addressClinic": "Địa chỉ phòng khám",
+            "note": "Ghi chú",
+            "specialty": "Chọn chuyên khoa",
+            "select-clinic": "Chọn phòng khám"
+        }
+    }
+}

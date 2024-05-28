@@ -1,0 +1,29 @@
+.scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999999999999999999;
+    opacity: 1;
+    visibility: visible;
+    background-color: #007bff; // Màu nền của nút
+    color: #fff; // Màu chữ của nút
+    border: none; // Loại bỏ viền
+    border-radius: 50%; // Bo tròn nút
+    width: 40px; // Độ rộng của nút
+    height: 40px; // Độ cao của nút
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; // Hiệu ứng chuyển đổi màu khi hover
+
+    &:hover {
+        background-color: #0056b3; // Màu nền khi hover
+    }
+
+    svg {
+        width: 20px; // Độ rộng của biểu tượng mũi tên
+        height: 20px; // Độ cao của biểu tượng mũi tên
+        fill: #fff; // Màu của biểu tượng mũi tên
+    }
+}

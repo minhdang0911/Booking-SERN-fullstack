@@ -1,0 +1,148 @@
+{
+    "homeheader": {
+        "speciality": " Medical spoecialty",
+        "searchdoctor": "Find a doctor by specialty",
+        "health-facility": "Health facilities",
+        "select-room": "Choose hospital clinic",
+        "doctor": "Doctor",
+        "select-doctor": "Choose a good doctor",
+        "fee": "Checkup package",
+        "check-health": " General health check",
+        "support": "Support",
+        "welcome": "Welcome, ",
+        "language": "Select language",
+        "noResults": "No corresponding specialty found"
+    },
+
+    "banner": {
+        "title1": "Medical Platform",
+        "title2": "Comprehensive Health Care",
+        "child1": "Specialized Examination",
+        "child2": "Remote Examination",
+        "child3": "General Examination",
+        "child4": "Medical Test",
+        "child5": "Mental Health",
+        "child6": "Dental Examination",
+        "placeholder": "Find a medical specialist"
+    },
+
+    "menu": {
+        "admin": {
+            "manage-user": "User System",
+            "manage-doctor": "Manage doctors",
+            "manage-admin": "Manage admins",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD redux",
+            "clinic": "Clinics",
+            "manage-clinic": "Manage Clinics",
+            "specialty": "Specialties",
+            "manage-specialty": "Manage Specialties",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage Handbook"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Doctor's Schedule",
+            "manage-patient": "Manage Doctor's Patient"
+        }
+    },
+    "manage-user": {
+        "add": "Add a new user",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First name",
+        "last-name": "Last name",
+        "phone-number": "Phone number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role": "Role",
+        "save": "Save user",
+        "image": "Avatar",
+        "edit": "Edit user"
+    },
+    "homepage": {
+        "outstanding-doctor": "Last week's featured doctor",
+        "more-info": "More-infor",
+        "specialty-popular": "Popular specialties",
+        "handbook": "Handbook",
+        "specialty": "Examination specialist"
+    },
+
+    "content": {
+        "content1": "Creating a reliable and easy-to-understand health information source for all reader demographics",
+        "content2": "Compiled by",
+        "content3": " Doctors and Pharmacists",
+        "content4": " Editorial Policy",
+        "content5": "Transparency in Content",
+        "content6": "Editorial Policy",
+        "content7": "Advertising Policy",
+        "content8": "Editorial Policy",
+        "content9": "Privacy Policy",
+        "content10": "BookingCare is a scheduling system designed to help patients easily choose suitable specialist doctors based on a network of verified and transparent information. We provide clear and transparent information regarding medical appointments, including time, procedures, service prices, facilities, insurance, address, doctor's experience, and training",
+        "content11": "Insurance Coverage",
+        "content12": "Media coverage about BookingCare",
+        "content13": "YourHealth Clinic. All rights reserved",
+        "content14": "Get in Touch",
+        "content15": "Send Feedback",
+        "content16": "Payment Methods"
+    },
+
+    "manage-schedule": {
+        "title": "Manage doctor's examination plan",
+        "choose-doctor": "Choose doctor",
+        "choose-date": "Choose date",
+        "save": "Save info"
+    },
+    "patient": {
+        "detail-doctor": {
+            "schedule": "Schedule",
+            "no-schedule": "Doctors do not have appointments during this time, please choose another time!",
+            "choose": "Choose",
+            "Schedule-a-free-appointment": " And book (Reservation free 0 VND)"
+        },
+        "extra-infor-doctor": {
+            "text-address": "Examination address",
+            "price": "Examination price :",
+            "detail": "See details",
+            "payment": " Patients can pay costs in form :",
+            "hide-price": "Hide price list"
+        },
+        "booking-modal": {
+            "title": "Information on scheduling medical examinations",
+            "fullname": "Fullname",
+            "phonenumber": "Phonenumber",
+            "email": "Email",
+            "address": "Address",
+            "reason": "Reason for examination",
+            "birthday": "Birthday",
+            "gender": "Gender",
+            "confirm": "Comfirm",
+            "cancel": "Cancel",
+            "pricebooking": "Free appointment",
+            "price": "Price"
+        },
+        "error": {
+            "error-fullname": "Please enter the correct name format",
+            "error-email": "Please enter the correct email format",
+            "error-phone": "Please enter the correct phone number format",
+            "error-date": "The person making the appointment is not 18 years old"
+        }
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Create more informaion doctors",
+            "select-doctor": "Select doctor",
+            "intro": "Introduction",
+            "add": "Create Infor",
+            "save": "Save Info",
+            "price": "Price",
+            "payment": "Payment",
+            "province": "Province",
+            "nameClinic": "Clinic's name",
+            "addressClinic": "Clinic's address",
+            "note": "Note",
+            "specialty": "Specialty",
+            "select-clinic": "Clinic"
+        }
+    }
+}
